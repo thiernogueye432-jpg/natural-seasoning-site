@@ -1,0 +1,29 @@
+/* Application globale de la police et du fond beige naturel */
+body {
+    font-family: 'Inter', sans-serif !important;
+    background-color: #fdfbf7 !important;
+    margin: 0;
+    padding: 0;
+}
+
+/* Forcer le style du formulaire de commande */
+#section-commande {
+    background-color: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+    padding: 2rem !important;
+    border-radius: 0.5rem !important;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Amélioration visuelle des champs de saisie */
+input, textarea {
+    background-color: #f9fafb !important;
+    border: 1px solid #d1d5db !important;
+    transition: all 0.2s ease-in-out;
+}
+
+input:focus, textarea:focus {
+    border-color: #8c3523 !important;
+    background-color: #ffffff !important;
+    outline: none;
+}
